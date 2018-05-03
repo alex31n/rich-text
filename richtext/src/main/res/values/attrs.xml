@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rt_borderWidth" format="dimension"/>
+    <attr name="rt_borderColor" format="color"/>
+    <attr name="rt_radius" format="dimension"/>
+    <attr name="rt_backgroundColor" format="color"/>
+    <declare-styleable name="RichText">
+        <attr name="rt_borderWidth"/>
+        <attr name="rt_borderColor"/>
+        <attr name="rt_radius"/>
+        <attr name="rt_backgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="RichView">
+        <attr name="rt_borderWidth"/>
+        <attr name="rt_borderColor"/>
+        <attr name="rt_radius"/>
+        <attr name="rt_backgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="RichEditText">
+        <attr name="rt_borderWidth"/>
+        <attr name="rt_borderColor"/>
+        <attr name="rt_radius"/>
+        <attr name="rt_backgroundColor"/>
+    </declare-styleable>
+
+
+</resources>
