@@ -11,25 +11,25 @@ Features:
 &nbsp;
 ## Installation
 
-&nbsp;
-#### Gradle 
 
-```
-dependencies {
-        compile 'com.ornach.richtext:richtext:1.0'
+&nbsp;
+Step 1. Add the JitPack repository to your build file  
+Add it in your root build.gradle at the end of repositories:
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 
-&nbsp;
-#### Maven
-
-```
-<dependency>
-    <groupId>com.ornach.richtext</groupId>
-    <artifactId>richtext</artifactId>
-    <version>1.0</version>
-    <type>pom</type>
-</dependency>
+Step 2. Add the dependency
+```gradle
+dependencies {
+    implementation 'com.github.alex31n:rich-text:2.0.1'
+}
 ```
 
 
